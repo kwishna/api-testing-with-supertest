@@ -1,0 +1,13 @@
+{
+  "spec_dir": "src/test",
+  "spec_files": [
+    "**/*test.ts"
+  ],
+  "helpers": ["ts-node/register"],
+  "stopSpecOnExpectationFailure": false,
+  "random": false,
+  "failSpecWithNoExpectations": true,
+  "requires": ["ts-node/register"],
+  "stopOnSpecFailure": false,
+  "showColors": true
+}

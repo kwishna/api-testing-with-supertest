@@ -1,0 +1,10 @@
+{
+    "esversion": 9,
+    "strict": true,
+    "node": true,
+    "nocomma": true,
+    "module": true,
+    "maxlen": 120,
+    "curly": true,
+    "smarttabs": true
+}

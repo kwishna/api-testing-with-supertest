@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import supertest, { SuperAgentTest, SuperTest, Test } from 'supertest';
 
-xdescribe('https://gorest.co.in/', () => {
+describe('https://gorest.co.in/', () => {
     const obj = {
         'access-token': process.env.API_KEY,
     };
@@ -27,7 +27,7 @@ xdescribe('https://gorest.co.in/', () => {
         return request
             .get('/users')
             .query(obj)
-            .then(res => {
+            .then((res) => {
                 expect(res.status).to.equal(201);
             });
     });
